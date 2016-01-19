@@ -9,3 +9,6 @@ Use git add to add a file(s) from the working directory to the staging area.  Th
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 It's probably a good idea to keep a master branch that is always working (i.e. compiling and running without erros) and maybe contains commmits for release versions.  This keeps a nice history of working code and releaes.  Branches used for features, fixes, etc. would also be usefult to track the coding work for these items.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams show me the branches and the headless parts of the repository. If I'm working in a headless part of the repository and switch to a branch, I will not be able to get back to the headless part unless I remember its commit id.
