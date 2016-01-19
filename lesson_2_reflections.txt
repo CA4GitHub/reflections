@@ -12,3 +12,6 @@ It's probably a good idea to keep a master branch that is always working (i.e. c
 
 How do the diagrams help you visualize the branch structure?
 The diagrams show me the branches and the headless parts of the repository. If I'm working in a headless part of the repository and switch to a branch, I will not be able to get back to the headless part unless I remember its commit id.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches together is a currently-checked-out-branch that includes the commits from the merged branches. We represent it in the diagram the way we do because it shows how the currently-checked-out-branch joins the commits of the merged branches.
