@@ -15,3 +15,9 @@ The diagrams show me the branches and the headless parts of the repository. If I
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result of merging two branches together is a currently-checked-out-branch that includes the commits from the merged branches. We represent it in the diagram the way we do because it shows how the currently-checked-out-branch joins the commits of the merged branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A pro for automatic merging is that it reduces the work for the user.
+A con for automatic merging is the chance it doesn't work right.
+A pro for manual merging is the user can merge as he desires.
+A con for manual merging is it might be more work for the user.
