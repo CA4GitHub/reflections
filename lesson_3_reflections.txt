@@ -14,3 +14,7 @@ You can diff and merge without needing a network connection.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Another option for software collaboration is Tortoise SVN. A web page can host repositores, and user's can checkout copies, make commits, etc.of the repositories. I'm not sure if one is harder/easier.  Both seems very similar.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I like to make any changes in a separate branch and then merge them into master only after they've been tested. This keeps master in a working state.
+A benefit to making changes in master is that it's easier to make a individual changes.
