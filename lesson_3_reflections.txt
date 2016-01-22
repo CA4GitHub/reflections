@@ -11,3 +11,6 @@ Branches are labels for commits. You create branches to work on new features.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can diff and merge without needing a network connection.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Another option for software collaboration is Tortoise SVN. A web page can host repositores, and user's can checkout copies, make commits, etc.of the repositories. I'm not sure if one is harder/easier.  Both seems very similar.
